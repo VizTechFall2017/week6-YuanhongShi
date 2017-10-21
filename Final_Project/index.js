@@ -50,7 +50,7 @@ console.log(startPoint);
 
     var circle = svg.append("circle")
         .attr("r", 13)
-        //.attr('fill', 'steelblue')
+        .attr('fill', 'pink')
         .attr("transform", "translate(" + startPoint + ")");
 
     transition();
